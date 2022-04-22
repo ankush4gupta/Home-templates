@@ -1,0 +1,18 @@
+.container-fluid{
+    background-color: #e0e3e8;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+    color: lightskyblue;
+    
+}
+.card{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+table tbody tr td img{
+    width: 70px;
+}

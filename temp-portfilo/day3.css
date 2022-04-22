@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    background-image: url("m1.jpg");
+    background-size:cover;
+    background-position: center ;
+    height:100vh;
+    width: 100%;
+}
+.header{
+    /* background-color: red; */
+    /* width: 100%; */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top: 45px;
+    padding-right: 8%;
+    padding-left:8%;
+
+}
+.heading{
+    color:#3c79af;
+}
+.header h1{
+    /* margin-left: 3%; */
+   
+    /* padding :20px; */
+   font-size:35px;
+   letter-spacing: 1px;
+    color:#b3bcc4;
+
+}
+.header ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 10px 30px;
+
+    /* justify-content:space-between; */
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #b3bcc4;
+    transition:.4s;
+     }
+.header ul li a:hover{
+    color:#3c79af;
+    font-size: 23px;
+    font-weight:bold;
+
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    /* margin-right: 18%; */
+    /* font-size: 25px; */
+    padding: 10px 25px;
+    font-weight:bold;
+    background-color:#3c79af;
+    border-radius:20px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.5);
+}
+.letter{
+    color:white;
+}
+.content{
+    position:absolute;
+    top:34%;
+    left: 30%;
+    /* background-color: red; */
+}
+h1{
+    color:#3c79af;
+  margin-top:10px;
+  margin-bottom:20px; 
+  /* padding: 20px; */
+    font-size:70px;
+}
+h3{
+    color:white;
+    font-size:25px;
+    margin-bottom: 20px;
+}
+h4{
+    color:white;
+    font-size: 25px;
+
+}
+.mail{
+    width: 450px;
+    max-width: 100%;
+    position: relative;
+    /* background-color: red; */
+}
+input[type="email"]{
+    width: 250px;
+    max-width: 100%;
+    border: 2px solid #3c79af;
+    display: inline-block;
+    padding: 14px 50px 8px 15px;
+    border-radius:20px;
+    text-decoration: none;
+}
+input[type="email"]:hover{
+    border:2px solid transparent;
+}
+.mail form input:last-child{
+    padding: 10px 25px;
+    margin-left: 10px;
+    /* font-size:18px; */
+    background-color:#3c79af;
+    color: white;
+    border : 2px solid transparent;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: transform 0.4s;
+}
+.mail form input:last-child:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: #3c79af;
+}
+.footer{
+    background-color:black;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.logo{
+    font-size:40px;
+    padding: 30px;
+    color: white;
+    
+}
+
+.address{
+    color: white;
+    margin-top: 10px;
+   
+}
+.address ul li{
+    text-decoration: none;
+    font-size:20px;
+    list-style: none;
+    padding:10px;
+}
+.social{
+    display: flex;
+  width: 350px;
+}
+
+.social ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 15px;
+   
+}
+img{
+    height: 50px;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.5);
+}

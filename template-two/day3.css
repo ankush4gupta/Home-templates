@@ -1,0 +1,91 @@
+.navbar{
+    color: white !important;
+    background-color:#5a5ea5 !important;
+}
+.service{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title{
+    text-align: center;
+    margin-top:10px;
+    align-items: center;
+}
+.service-text{
+
+    text-align: center;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.row{
+    margin-left: 1%;
+    margin-right:1%;
+}
+.card{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border: none !important;
+}
+.card-img-top{
+    width:100px;
+    
+    
+}
+.features-container{
+    background-color: #0390d4;
+    padding-top:4%;
+    padding-bottom: 50px !important;
+    
+}
+.ty{
+  color: white !important;
+  font-weight: normal !important;
+ 
+
+}
+.mytext{
+    margin-bottom: 50px !important;
+    color: white !important;
+  font-weight: normal !important;
+ 
+}
+.text-muted{
+    color: white !important;
+    font-weight: bold !important;
+}
+.mycard{
+    background-color: #0390d4;
+    text-align: center;
+    
+}
+.mycard-title{
+ margin-top: 15px;
+ color: white !important;
+ font-weight: normal !important;
+}
+.myform{
+    background-color: rgb(0, 0, 0,0.7) !important;
+
+padding-top: 50px;
+
+}
+.myform_field{
+    margin-left: 50px;
+    padding-top: 50px;
+    
+   
+}
+input[type="text"]{
+    width: 300px;
+    margin-bottom: 70px !important;
+    
+}
+.btn{
+    width:150px;
+}
