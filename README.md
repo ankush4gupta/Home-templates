@@ -21,7 +21,7 @@ git clone https://github.com/ankush4gupta/The-media.git
 
 
 # Template-two  : Aki-tech  
-###### _techi-zone is a dummy home template _
+###### _Aki-tech is a dummy home template _
 
 ## [[Demo Link]](https://aki-tech.netlify.app/)
 ![Aki-tech](/template-two/header.png)
@@ -31,6 +31,7 @@ git clone https://github.com/ankush4gupta/The-media.git
 ## Tech Stacks
 - HTML5
 - CSS3
+- Bootstrap
  <hr>
  
  # Template-three  : Dummy Portfolio  
